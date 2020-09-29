@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-
+ruby "2.3.1"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.13' 
+# gem 'sqlite3', '~> 1.3.13' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,6 +36,7 @@ gem 'bulma-rails', '~> 0.9.0'
 gem 'simple_form'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.7', '>= 4.7.2'
+gem 'pg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
