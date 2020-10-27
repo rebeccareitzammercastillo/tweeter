@@ -1,1 +1,3 @@
-Tweeter is a twitter clone built with Ruby on Rails and Bulma. 
+#tweeter
+Tweeter is a Twitter clone built with HTML, CSS, Bulma and Ruby on Rails. This application showcases the same interface we enjoy from
+Twitter and has all CRUD capabilities.
